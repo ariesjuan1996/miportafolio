@@ -8,6 +8,7 @@
   "scripts": {
     "serve": "npx quasar dev",
     "lint": "eslint --ext .js,.vue ./",
+    
     "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master",
     "test": "echo \"No test specified\" && exit 0"
   },
